@@ -6,7 +6,7 @@ require 'pry'
 
 def countdown(x)
   #binding.pry
-  until x = 0
+  while x > 0
     if x == 0 
       puts "HAPPY NEW YEAR!"
     else
