@@ -7,7 +7,7 @@ require 'pry'
 def countdown(x)
   #binding.pry
   while x > 0
-      puts "{x} SECOND(S)!"
+      puts "#{x} SECOND(S)!"
       x -= 1
     #else
       #puts "HAPPY NEW YEAR!"
