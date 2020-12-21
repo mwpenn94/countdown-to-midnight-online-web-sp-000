@@ -13,5 +13,14 @@ def countdown(x)
   return "HAPPY NEW YEAR!"
 end
 
+def countdown(x)
+  #binding.pry
+  while x > 0
+      puts "#{x} SECOND(S)!"
+      x -= 1
+      sleep(1)
+  end
+  return "HAPPY NEW YEAR!"
+end
 
-sleep(1)
+
