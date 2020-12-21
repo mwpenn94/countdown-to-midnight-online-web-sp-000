@@ -8,9 +8,9 @@ def countdown(x)
   #binding.pry
   while x > 0
       puts "{x} SECOND(S)!"
+      x -= 1
     else
       puts "HAPPY NEW YEAR!"
-    x -= 1
-   end
+    end
   end
 end
