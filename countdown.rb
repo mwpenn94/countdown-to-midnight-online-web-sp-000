@@ -1,15 +1,26 @@
 #write your code here
+require 'pry'
 
-input = (gets.chomp)
-x = Integer(input)
+#input = (gets.chomp)
+#x = Integer(input)
 
 def countdown(x)
-  until x > 0
-    if x == 0 
-      puts "HAPPY NEW YEAR!"
-    else
-      puts "{x} SECOND(S)!"
-    x -= 1
-   end
+  #binding.pry
+  while x > 0
+      puts "#{x} SECOND(S)!"
+      x -= 1
   end
+  return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(x)
+  #binding.pry
+  while x > 0
+      puts "#{x} SECOND(S)!"
+      x -= 1
+      sleep(1)
+  end
+  return "HAPPY NEW YEAR!"
+end
+
+
