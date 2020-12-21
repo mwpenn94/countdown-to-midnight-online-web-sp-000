@@ -13,5 +13,5 @@ def countdown(x)
       #puts "HAPPY NEW YEAR!"
     #end
   end
-  puts "HAPPY NEW YEAR!"
+  #puts "HAPPY NEW YEAR!"
 end
