@@ -13,7 +13,7 @@ def countdown(x)
   return "HAPPY NEW YEAR!"
 end
 
-def countdown(x)
+def countdown_with_sleep(x)
   #binding.pry
   while x > 0
       puts "#{x} SECOND(S)!"
