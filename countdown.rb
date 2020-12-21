@@ -1,7 +1,7 @@
 #write your code here
 
-input = (gets.chomp)
-x = Integer(input)
+#input = (gets.chomp)
+#x = Integer(input)
 
 def countdown(x)
   until x > 0
